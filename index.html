@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>m a r i</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+
+<div id="myNav" class="overlay row">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <div class="navButtons">
+      <button class="tablink" onclick="openPage('About', this)" id="defaultOpen">About</button>
+      <button class="tablink" onclick="openPage('Spec', this)">Skills</button>
+      <button class="tablink" onclick="openPage('Contact', this)">Contacts</button>
+    </div>
+
+    <div id="About" class="tabcontent">
+      <h2>Welcome here!</h2> <br>
+      <p>Hey wassup nigga ntmu here dude</p>
+    </div>
+
+    <div id="Spec" class="tabcontent">
+      <h2>My primary skills</h2> <br>
+      <p>a</p> <br>
+      <p>b</p>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+      <h2>You know we could do it</h2> <br>
+      <p>Contact me with phone number below or follow the links:</p> <br>
+      <a>+7(911)018-02-55</a>
+    </div>
+
+    <script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.color = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.color = color;
+    }
+    document.getElementById("defaultOpen").click();
+    </script>
+  </div>
+</div>
+
+<div class="sidenav">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img id="logo" src="img/navlogo.png"></span>
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "500px";
+    document.getElementById("logo").style.transform = "rotate(90deg)";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+    document.getElementById("logo").style.transform = "rotate(0)";
+    document.getElementById("logo").style.transition = "0.5s";
+  }
+</script>
+
+<div class="everything" onclick="closeNav()">
+  <div id="headBlock" class="container-fluid row">
+    <div class="welcome">
+      <h4>Hey! I'm Marina.</h4>
+      <h1>DEVELOP & DESIGN</h1><br>
+      <p>Ima designer from Saint P. I'm glad you're here and could see my stuff :)</p>
+      <div class="tofirst">
+        <a href="#first"><span class="glyphicon glyphicon-chevron-up" style="color: black;"></span></a>
+      </div>
+    </div>
+      <!--<canvas id="content"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="js/headBlock.js"></script>-->
+  </div>
+
+  <div id="first" class="block">
+    <div class="inside  col-sm-11">
+      <hr class="line">
+      <h2>01</h2>
+      <div class="bottomBlock">
+        <div class="letters">
+          <h3>BRANDING & LETTERING</h3>
+          <a href="/maridmi.github.io/vtc" class="mainImgText">VTC gallery design project</a>
+        </div>
+        <div class="next">
+          <a href="/maridmi.github.io/vtc" class="nextpage"><button class="nextPageButton"><img src="img/done/vtc/arrow.png"></button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="second" class="block">
+    <div class="inside  col-sm-11">
+      <hr class="line">
+      <h2>02</h2>
+      <div class="bottomBlock">
+        <div class="letters">
+          <h3>BRANDING & UI/UX</h3>
+          <a href="/maridmi.github.io/404" class="mainImgText">Web-design projects</a>
+        </div>
+        <div class="next">
+          <a href="/maridmi.github.io/404" class="nextpage"><button class="nextPageButton"><img src="img/done/vtc/arrow.png"></button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="third" class="block">
+    <div class="inside  col-sm-11">
+      <hr class="line">
+      <h2>03</h2>
+      <div class="bottomBlock">
+        <div class="letters">
+          <h3>BRANDING</h3>
+          <a href="/maridmi.github.io/404" class="mainImgText">Logos</a>
+        </div>
+        <div class="next">
+          <a href="/maridmi.github.io/404" class="nextpage"><button class="nextPageButton"><img src="img/done/vtc/arrow.png"></span></button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fourth" class="block">
+    <div class="inside  col-sm-11">
+      <hr class="line">
+      <h2>04</h2>
+      <div class="bottomBlock">
+        <div class="letters">
+          <h3>BRANDING</h3>
+          <a href="/maridmi.github.io/404" class="mainImgText">Red Sign Loft</a>
+        </div>
+        <div class="next">
+          <a href="/maridmi.github.io/404" class="nextpage"><button class="nextPageButton"><img src="img/done/vtc/arrow.png"></button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <foother>
+  <div class="totop col-sm-12 text-center">
+      <a href="#headBlock" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+  </div>
+  </footer>
+</div>
+
+<script src="js/smoothscroll.js"></script>
+
+</body>
+</html>

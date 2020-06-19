@@ -1,0 +1,42 @@
+.dark {
+    background-color: #0F0F0F;
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.white {
+	background-color: white;
+    color: #0F0F0F;
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.white h1 {
+	text-align: right;
+}
+
+.dark a {
+	color: white;
+	text-decoration: none;
+}
+
+.dark a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.white a {
+	color: #0F0F0F;
+	text-decoration: none;
+}
+
+.white a:hover {
+	color: #0F0F0F;
+	text-decoration: none;
+}
