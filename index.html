@@ -10,11 +10,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
-
 
 <div id="myNav" class="overlay row">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -26,20 +26,25 @@
     </div>
 
     <div id="About" class="tabcontent">
-      <h2>Welcome here!</h2> <br>
-      <p>Hey wassup nigga ntmu here dude</p>
+      <h2>Hello!</h2> <br>
+      <p>I’m Marina, a Saint P. based designer. Im always searching 
+        for new experienxes and challenges. <br>If you have any nice projects, get in touch!</p>
+      <p>You can find out more information <br>about me <a class="navlink" href="/maridmi.github.io/resume">here.</a></p>
     </div>
 
     <div id="Spec" class="tabcontent">
-      <h2>My primary skills</h2> <br>
-      <p>a</p> <br>
-      <p>b</p>
+      <h2>My primary skills:</h2> <br>
+      <p>Web-design</p>
+      <p>Graphic design</p>
+      <p>Branding (logos, colors)</p>
+      <p>Any kind of drawings</p>
     </div>
 
     <div id="Contact" class="tabcontent">
-      <h2>You know we could do it</h2> <br>
-      <p>Contact me with phone number below or follow the links:</p> <br>
-      <a>+7(911)018-02-55</a>
+      <h2>Just contact me.</h2> <br>
+      <p>If you are interested in starting a project together, please get in touch:</p> <br><br>
+      <a class="navlinktel" href="tel:+79110180255"><i class="fas fa-phone"></i> +7(911)018-02-55</a><br>
+      <a class="navlinktel" href="mailto:yarova0marina"><i class="far fa-envelope"></i>  yarova0marina@gmail.com</a>
     </div>
 
     <script>
@@ -62,31 +67,46 @@
 </div>
 
 <div class="sidenav">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img id="logo" src="img/navlogo.png"></span>
+  <img id="logo" onclick="changeState()" src="img/navlogo.png">
 </div>
 
 <script>
+  let isClosed = true; // 0 - closed, 1 - opened
+
+  function changeState() {
+    if(isClosed)
+      openNav();
+    else
+     closeNav();
+  }
+
   function openNav() {
-    document.getElementById("myNav").style.width = "500px";
+    document.getElementById("myNav").style.width = "600px";
     document.getElementById("logo").style.transform = "rotate(90deg)";
+    isClosed = false;
   }
   
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
     document.getElementById("logo").style.transform = "rotate(0)";
     document.getElementById("logo").style.transition = "0.5s";
+    isClosed = true;
   }
 </script>
 
-<div class="everything" onclick="closeNav()">
+<div id="need" class="everything" onclick="closeNav()">
   <div id="headBlock" class="container-fluid row">
     <div class="welcome">
       <h4>Hey! I'm Marina.</h4>
       <h1>DEVELOP & DESIGN</h1><br>
-      <p>Ima designer from Saint P. I'm glad you're here and could see my stuff :)</p>
+      <p>Here's some selected works I've done.</p>
+      <p>Check it out!</p>
       <div class="tofirst">
-        <a href="#first"><span class="glyphicon glyphicon-chevron-up" style="color: black;"></span></a>
+        <a href="#first"><span class="icondown glyphicon glyphicon-chevron-down"></span></a>
       </div>
+    </div>
+    <div class="gif">
+      <img src="img/gif.gif">
     </div>
       <!--<canvas id="content"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
@@ -103,7 +123,7 @@
           <a href="/maridmi.github.io/vtc" class="mainImgText">VTC gallery design project</a>
         </div>
         <div class="next">
-          <a href="/maridmi.github.io/vtc" class="nextpage"><button class="nextPageButton"><img src="img/done/vtc/arrow.png"></button></a>
+          <a href="/maridmi.github.io/vtc" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></button></a>
         </div>
       </div>
     </div>
@@ -116,10 +136,10 @@
       <div class="bottomBlock">
         <div class="letters">
           <h3>BRANDING & UI/UX</h3>
-          <a href="/maridmi.github.io/404" class="mainImgText">Web-design projects</a>
+          <a href="/maridmi.github.io/web" class="mainImgText">Web-design projects</a>
         </div>
         <div class="next">
-          <a href="/maridmi.github.io/404" class="nextpage"><button class="nextPageButton"><img src="img/done/vtc/arrow.png"></button></a>
+          <a href="/maridmi.github.io/web" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></button></a>
         </div>
       </div>
     </div>
@@ -132,10 +152,10 @@
       <div class="bottomBlock">
         <div class="letters">
           <h3>BRANDING</h3>
-          <a href="/maridmi.github.io/404" class="mainImgText">Logos</a>
+          <a href="/maridmi.github.io/logo" class="mainImgText">Logos</a>
         </div>
         <div class="next">
-          <a href="/maridmi.github.io/404" class="nextpage"><button class="nextPageButton"><img src="img/done/vtc/arrow.png"></span></button></a>
+          <a href="/maridmi.github.io/logo" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></span></button></a>
         </div>
       </div>
     </div>
@@ -148,10 +168,10 @@
       <div class="bottomBlock">
         <div class="letters">
           <h3>BRANDING</h3>
-          <a href="/maridmi.github.io/404" class="mainImgText">Red Sign Loft</a>
+          <a href="/maridmi.github.io/red" class="mainImgText">Red Sign Loft</a>
         </div>
         <div class="next">
-          <a href="/maridmi.github.io/404" class="nextpage"><button class="nextPageButton"><img src="img/done/vtc/arrow.png"></button></a>
+          <a href="/maridmi.github.io/red" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></button></a>
         </div>
       </div>
     </div>
@@ -160,7 +180,7 @@
   <foother>
   <div class="totop col-sm-12 text-center">
       <a href="#headBlock" title="To Top">
-      <span class="glyphicon glyphicon-chevron-up"></span>
+      <span class="icondown glyphicon glyphicon-chevron-up"></span></a>
   </div>
   </footer>
 </div>
