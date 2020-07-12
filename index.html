@@ -16,61 +16,61 @@
 </head>
 <body>
 
-<div id="myNav" class="overlay row">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <div class="navButtons">
-      <button class="tablink" onclick="openPage('About', this)" id="defaultOpen">About</button>
-      <button class="tablink" onclick="openPage('Spec', this)">Skills</button>
-      <button class="tablink" onclick="openPage('Contact', this)">Contacts</button>
-    </div>
+  <div id="myNav" class="overlay row">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <div class="navButtons">
+        <button class="tablink" onclick="openPage('About', this)" id="defaultOpen">About</button>
+        <button class="tablink" onclick="openPage('Spec', this)">Skills</button>
+        <button class="tablink" onclick="openPage('Contact', this)">Contacts</button>
+      </div>
 
-    <div id="About" class="tabcontent">
-      <h2>Hello!</h2> <br>
-      <p>I’m Marina, a Saint P. based designer. Im always searching 
-        for new experienxes and challenges. <br>If you have any nice projects, get in touch!</p>
-      <p>You can find out more information <br>about me <a class="navlink" href="/maridmi.github.io/resume">here.</a></p>
-    </div>
+      <div id="About" class="tabcontent">
+        <h2>Hello!</h2> <br>
+        <p>I’m Marina, a Saint P. based designer. Im always searching 
+          for new experienxes and challenges. <br>If you have any nice projects, get in touch!</p>
+        <p>You can find out more information <br>about me <a class="navlink" href="/maridmi.github.io/resume">here.</a></p>
+      </div>
 
-    <div id="Spec" class="tabcontent">
-      <h2>My primary skills:</h2> <br>
-      <p>Web-design</p>
-      <p>Graphic design</p>
-      <p>Branding (logos, colors)</p>
-      <p>Any kind of drawings</p>
-    </div>
+      <div id="Spec" class="tabcontent">
+        <h2>My primary skills:</h2> <br>
+        <p>Web-design</p>
+        <p>Graphic design</p>
+        <p>Branding (logos, colors)</p>
+        <p>Any kind of drawings</p>
+      </div>
 
-    <div id="Contact" class="tabcontent">
-      <h2>Just contact me.</h2> <br>
-      <p>If you are interested in starting a project together, please get in touch:</p> <br><br>
-      <a class="navlinktel" href="tel:+79110180255"><i class="fas fa-phone"></i> +7(911)018-02-55</a><br>
-      <a class="navlinktel" href="mailto:yarova0marina"><i class="far fa-envelope"></i>  yarova0marina@gmail.com</a>
-    </div>
+      <div id="Contact" class="tabcontent">
+        <h2>Just contact me.</h2> <br>
+        <p>If you are interested in starting a project together, please get in touch:</p> <br><br>
+        <a class="navlinktel" href="tel:+79110180255"><i class="fas fa-phone"></i> +7(911)018-02-55</a><br>
+        <a class="navlinktel" href="mailto:yarova0marina"><i class="far fa-envelope"></i>  yarova0marina@gmail.com</a>
+      </div>
 
-    <script>
-    function openPage(pageName,elmnt,color) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+      <script>
+      function openPage(pageName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.color = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.color = color;
       }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.color = "";
-      }
-      document.getElementById(pageName).style.display = "block";
-      elmnt.style.color = color;
-    }
-    document.getElementById("defaultOpen").click();
-    </script>
+      document.getElementById("defaultOpen").click();
+      </script>
+    </div>
   </div>
-</div>
 
-<div class="sidenav">
-  <img id="logo" onclick="changeState()" src="img/navlogo.png">
-</div>
+  <div class="sidenav">
+    <img id="logo" onclick="changeState()" src="img/navlogo.png">
+  </div>
 
-<script>
+  <script>
   let isClosed = true; // 0 - closed, 1 - opened
 
   function changeState() {
@@ -92,9 +92,9 @@
     document.getElementById("logo").style.transition = "0.5s";
     isClosed = true;
   }
-</script>
+  </script>
 
-<div id="need" class="everything" onclick="closeNav()">
+  <div id="need" class="everything" onclick="closeNav()">
   <div id="headBlock" class="container-fluid row">
     <div class="welcome">
       <h4>Hey! I'm Marina.</h4>
@@ -120,10 +120,10 @@
       <div class="bottomBlock">
         <div class="letters">
           <h3>BRANDING & LETTERING</h3>
-          <a href="/maridmi.github.io/vtc" class="mainImgText">V-ART gallery design project</a>
+          <a href="/maridmi.github.io/vart" class="mainImgText">V-ART GALLERY DESIGN PROJECT</a>
         </div>
         <div class="next">
-          <a href="/maridmi.github.io/vtc" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></button></a>
+          <a href="/maridmi.github.io/vart" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></button></a>
         </div>
       </div>
     </div>
@@ -136,7 +136,7 @@
       <div class="bottomBlock">
         <div class="letters">
           <h3>BRANDING & UI/UX</h3>
-          <a href="/maridmi.github.io/web" class="mainImgText">Web-design projects</a>
+          <a href="/maridmi.github.io/web" class="mainImgText">WEB-DESIGN PROJECTS</a>
         </div>
         <div class="next">
           <a href="/maridmi.github.io/web" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></button></a>
@@ -148,27 +148,11 @@
   <div id="third" class="block">
     <div class="inside  col-sm-11">
       <hr class="line">
-      <h2>03</h2>
-      <div class="bottomBlock">
-        <div class="letters">
-          <h3>BRANDING</h3>
-          <a href="/maridmi.github.io/logo" class="mainImgText">Logos</a>
-        </div>
-        <div class="next">
-          <a href="/maridmi.github.io/logo" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></span></button></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="fourth" class="block">
-    <div class="inside  col-sm-11">
-      <hr class="line">
       <h2>04</h2>
       <div class="bottomBlock">
         <div class="letters">
           <h3>BRANDING</h3>
-          <a href="/maridmi.github.io/red" class="mainImgText">Red Sign Loft</a>
+          <a href="/maridmi.github.io/red" class="mainImgText">RED SIGN LOFT</a>
         </div>
         <div class="next">
           <a href="/maridmi.github.io/red" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></button></a>
@@ -177,15 +161,31 @@
     </div>
   </div>
 
+  <div id="fourth" class="block">
+    <div class="inside  col-sm-11">
+      <hr class="line">
+      <h2>03</h2>
+      <div class="bottomBlock">
+        <div class="letters">
+          <h3>BRANDING</h3>
+          <a href="/maridmi.github.io/daisy" class="mainImgText">DAISY SHOW ROOM BRANDING</a>
+        </div>
+        <div class="next">
+          <a href="/maridmi.github.io/daisy" class="nextpage"><button class="nextPageButton"><img src="img/chev1.png"></span></button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <foother>
   <div class="totop col-sm-12 text-center">
       <a href="#headBlock" title="To Top">
-      <span class="icondown glyphicon glyphicon-chevron-up"></span></a>
+      <span class="iconup icondown1 glyphicon glyphicon-chevron-up"></span></a>
   </div>
   </footer>
-</div>
+  </div>
 
-<script src="js/smoothscroll.js"></script>
+  <script src="js/smoothscroll.js"></script>
 
 </body>
 </html>
