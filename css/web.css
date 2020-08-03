@@ -1,3 +1,19 @@
-#main {
-	background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8.png?alt=media&token=6f32b842-388e-4f9e-9d58-8f0e7366e169");
-  }
+#w1 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainkuz.png?alt=media&token=c52e9c61-50d6-4ce0-873b-5dd4b138d538");
+}
+
+#w2 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainlvl.png?alt=media&token=f168f98c-a715-42e9-b42c-b6833b36085d");
+}
+
+#w3 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainmk.png?alt=media&token=11b6137b-5116-43b9-9be4-2f01c3a16c83");
+}
+
+#w4 {
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainpapa.png?alt=media&token=d593be43-60fc-4fb7-9a56-7b2becfb9eb8");
+}
+
+#w5 {
+	background-image: url("");
+}

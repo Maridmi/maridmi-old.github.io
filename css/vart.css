@@ -1,14 +1,14 @@
-#one {
-	background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/main1.jpg?alt=media&token=83698010-1397-4e7c-93a4-3ad98dbb41a2");
-  }
-
 @media screen and (min-width: 420px) {
+	#one {
+		background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/main1.jpg?alt=media&token=83698010-1397-4e7c-93a4-3ad98dbb41a2");
+	}
+
 	#two {
-		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/vart2.png?alt=media&token=a6508c4d-7f8e-4763-a0a2-8b01902e950a");
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/vart.png?alt=media&token=6b17f2ae-b8ed-4ebb-bcfc-a9776173b0c7");
 	}
 
 	#three {
-		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/vart.png?alt=media&token=e0d7e24f-620b-458e-97a1-03e244653599");
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/vart2.png?alt=media&token=5c8190fc-3452-4f15-afd0-72fcb2915dad");
 	}
 
 	#typo {
@@ -28,11 +28,19 @@
 	}
 
 	#mockup1 {
-		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mockup.jpg?alt=media&token=5ae2482d-8254-4148-968d-c853620a000f");
-  }
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mockup.jpg?alt=media&token=18b1e304-8290-450b-acc4-16bea9bc1905");
+	}
+	  
+	#mockup2 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url();
+  	}
 }
 
 @media screen and (max-width: 420px) {
+	#one {
+		background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobilemain.png?alt=media&token=eac98742-42ed-482f-85d8-76c58c16425b");
+	}
+
 	#two {
 		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobile1.png?alt=media&token=daf9f1eb-681b-48c7-9083-607c0396ac68");
 	}
@@ -42,43 +50,26 @@
 	}
 
 	#typo {
-		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobile2.png?alt=media&token=3118ed88-8ddc-47d1-8d53-3482f0e687ad");
-	}
-
-	#lettersvart {
-		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/letters.png?alt=media&token=39c68bc0-53b4-45de-a149-19202ff36e0c");
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobile2.png?alt=media&token=a460b961-81b4-45eb-9fcd-db33bf907dc6");
 	}
 
 	#font {
+		display: none;
 		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/fontgrid.jpg?alt=media&token=d4a15ede-ddff-4105-9c50-ae2c4583ba72");
 	}
 
+	#lettersvart {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobileletters.png?alt=media&token=0db5ea7d-677a-447d-b30e-5e45a7dacfe4");
+	}
+
 	#color {
-		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/colors.jpg?alt=media&token=a580ea43-5114-4ea4-95e1-7d5a9348e0b0");
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobilecolors.png?alt=media&token=f704099f-716b-4895-a6cc-5f8122ff05d6");
 	}
 
 	#mockup1 {
-		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mockup.jpg?alt=media&token=5ae2482d-8254-4148-968d-c853620a000f");
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mockup.jpg?alt=media&token=18b1e304-8290-450b-acc4-16bea9bc1905");
   }
 }
-
-.blockvart {
-    height: 110vh;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-.textvart {
-	position: absolute;
-	width: 100%;
-	bottom: 10%;
-	left: 10%;
-	background-color: rgba(255, 255, 255, 0.8);
-	color: rgba(0,0,0, 0.7);
-	padding: 30px;
-  }
 
 .textvart h4 {
 	font-size: 40px;
@@ -87,6 +78,10 @@
 .textvart p {
 	font-size: 20px;
 }
+
+body {
+}
+
 .end {
 	display: flex;
 	align-items: center;
@@ -94,15 +89,86 @@
 	flex-direction: row;
 	height: 35vh;
 	width: 100%;
+	background-color: rgb(235, 235, 235);
+}
+
+.end a {
+	color: rgba(0,0,0, 0.4);
+	text-decoration: none; 
+	font-size: 30px;
+}
+
+.end img {
+}
+
+.arranim1 {
+}
+
+.arranim2 {
 }
 
 .but {
-	height: 100%;
-	width: 100%;
-	border: none;
-	margin-bottom: 50px;
+	margin: 20px;
+}
+
+.but1 {
+	margin: 20px;
+	border-right: 5px black;
+}
+
+.buta img{
+	width: 300px;
+	transform: rotate(90deg);
+	opacity: 0.7;
+}
+
+.buta1 img{
+	width: 300px;
+	transform: rotate(-90deg);
+	opacity: 0.7;
 }
 
 .but:hover {
-	border: none;
 }
+
+@media screen and (max-width: 480px) {
+    .textvart {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		background-color: rgba(255, 255, 255, 0.8);
+		color: rgba(0,0,0, 0.7);
+		padding: 40px;
+	}
+	
+	.blockvart {
+		height: 140vh;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.back {
+		display: none;
+	}
+  }
+
+  @media screen and (min-width: 480px) {
+    .textvart {
+		position: absolute;
+		width: 90%;
+		bottom: 10%;
+		left: 10%;
+		background-color: rgba(255, 255, 255, 0.8);
+		color: rgba(0,0,0, 0.7);
+		padding: 30px;
+	}
+
+	.blockvart {
+		height: 140vh;
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+  }

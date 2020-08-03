@@ -1,0 +1,64 @@
+@media screen and (min-width: 420px) {
+	#oneRed {
+		background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maxresdefault.jpg?alt=media&token=4a5fc581-c177-40c1-95dd-842bf4057ca5");
+	}
+
+	#two2 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/red1.png?alt=media&token=29d419e7-0aae-4b9b-a2b1-1e60c3168d9a");
+	}
+
+	#three3 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redgrid.png?alt=media&token=701ae8de-0f37-4170-a947-1e25ea3ff719");
+	}
+
+	#typo {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#font {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#color {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#mockred {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mocred.jpg?alt=media&token=fee2108d-49b5-4a6e-ade9-5d003526a7a6");
+	}
+}
+
+@media screen and (max-width: 420px) {
+	#oneRed {
+		background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("");
+	}
+
+	#two {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#three {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#typo {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#font {
+		display: none;
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#lettersvart {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#color {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#mockup1 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+  }
+}
