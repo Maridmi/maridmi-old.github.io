@@ -1,19 +1,47 @@
 #w1 {
-	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainkuz.png?alt=media&token=c52e9c61-50d6-4ce0-873b-5dd4b138d538");
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainkuz.png?alt=media&token=bdf9654b-37dc-4e7c-9b66-0c196ce3217f");
 }
 
 #w2 {
-	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainlvl.png?alt=media&token=f168f98c-a715-42e9-b42c-b6833b36085d");
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainlvl.png?alt=media&token=3dc85a33-e368-4be9-9b6c-348004232f1a");
 }
 
 #w3 {
-	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainmk.png?alt=media&token=11b6137b-5116-43b9-9be4-2f01c3a16c83");
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainmk.png?alt=media&token=f8846c20-6acb-4336-b0d7-9d2f3191f73d");
 }
 
 #w4 {
-	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainpapa.png?alt=media&token=d593be43-60fc-4fb7-9a56-7b2becfb9eb8");
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainpapa.png?alt=media&token=6e4c16ea-41b8-47df-bad2-16548f41f5e0");
 }
 
 #w5 {
-	background-image: url("");
+	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainku.png?alt=media&token=c3f1f2c7-18f2-491a-b767-8e067e9d5994");
+}
+
+.block a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+@media screen and (min-width: 450px) {
+	.block {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.block img {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.block img {
+		display: none;
+	}
 }

@@ -37,6 +37,10 @@
 }
 
 @media screen and (max-width: 420px) {
+	body {
+		overflow-x: hidden;
+	}
+	
 	#one {
 		background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobilemain.png?alt=media&token=eac98742-42ed-482f-85d8-76c58c16425b");
 	}
