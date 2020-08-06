@@ -93,6 +93,7 @@
 
   .prevpage img {
     width: 90px;
+    filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
   }
 
   .prevpage img:hover {
@@ -252,7 +253,7 @@
     color: white;
     text-decoration: none;
   }
-
+l
   .mainImgText:hover {
     color: white;
     text-decoration: none;
