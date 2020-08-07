@@ -49,6 +49,11 @@
     font-family: 'ABeeZee';
   }
 
+  .letters a:hover, a:focus {
+    text-decoration: none;
+    color:white;
+  }
+
   hr {
     margin: 0;
   }
@@ -73,6 +78,7 @@
   .nextPageButton {
     background-color: inherit;
     border: none;
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
   }
 
   .nextpage img {
@@ -88,7 +94,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 90px;
   }
 
   .prevpage img {
@@ -104,7 +110,6 @@
   .nextPageButton:hover, .nextPageButton:focus {
     border: none;
     outline: none;
-    opacity: 0.8;
     transition: 0.4s;
   }
 
@@ -121,7 +126,7 @@
     width: 100%;
     position: sticky;
     position: -webkit-sticky;
-    bottom: 80px;
+    bottom: 90px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -282,7 +287,7 @@ l
     }
     
     .bottomBlock {
-      margin-top: 25vh;
+      margin-top: 50vh;
     }
   }
 
@@ -308,20 +313,42 @@ l
     }
   }
   
-  @media screen and (min-width: 450px) and (max-width: 900px) {
+  @media screen and (min-width: 450px) and (max-width: 900px) and (max-height: 400px) {
     .mainImgText {
-      font-size: 48px;
+      font-size: 50px;
       width: 60%;
     }
 
     .bottomBlock {
-      margin-top: 50vh;
+      margin-top: 30vh;
+    }
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 900px) and (min-height: 400px) and (max-height: 1000px) {
+    .mainImgText {
+      font-size: 60px;
+      width: 60%;
+    }
+
+    .bottomBlock {
+      margin-top: 30vh;
+    }
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 900px) and (min-height: 1000px) {
+    .mainImgText {
+      font-size: 70px;
+      width: 60%;
+    }
+
+    .bottomBlock {
+      margin-top: 60vh;
     }
   }
 
   @media screen and (min-width: 900px) and (max-width: 1080px) {
     .mainImgText {
-      font-size: 48px;
+      font-size: 70px;
       width: 60%;
     }
 
@@ -354,6 +381,10 @@ l
   @media screen and (max-width: 900px) {
     .mainImgText {
       font-size: 44px;
+      width: 100%;
+    }
+
+    .welcome { 
       width: 100%;
     }
 
