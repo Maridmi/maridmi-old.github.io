@@ -1,5 +1,9 @@
 #w1 {
-	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainku.png?alt=media&token=329a2884-037f-4be6-aa85-6241d93c07b3");
+	background-image:  linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainku.png?alt=media&token=329a2884-037f-4be6-aa85-6241d93c07b3");
+}
+
+#w1:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainku.png?alt=media&token=329a2884-037f-4be6-aa85-6241d93c07b3");
 }
 
 #w2 {
@@ -18,47 +22,82 @@
 	background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainkuz.png?alt=media&token=bdf9654b-37dc-4e7c-9b66-0c196ce3217f");
 }
 
-.block a {
+body {
+	background-color: black;
+}
+
+.web_block a {
 	text-decoration: none;
 }
 
 h1 {
-	font-size: 45px;
+	font-size: 60px;
 }
 
-.block a {
-	color: black;
+.web_block a {
+	color: white;
 }
 
-.block h3 {
-	color: black;
+.web_block h3 {
+	color: white;
+	font-size: 25px;
 }
 
 .main_web img {
 	width: 100%;
 }
 
+.web_block {
+	height: 100vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.pic_web{
+	width: 100%;
+}
+
+.pic_web img{
+	width: 600px;
+}
+
+.webtext {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
 @media screen and (min-width: 450px) {
-	.block {
+	.web_block {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
+		padding: 10%;
 	}
 
-	.block img {
-		width: 50%;
+	.txt {
+		padding: 10%;
+		width: 100%;
 	}
 }
 
 @media screen and (max-width: 450px) {
-	.block img {
+	.web_block img {
 		display: none;
 	}
 
-	.webtext {
+	.txt {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
+		text-align: center;
 	}
 }
