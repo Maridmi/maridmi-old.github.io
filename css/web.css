@@ -79,11 +79,11 @@ h1 {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-		padding: 10%;
+		padding: 15%;
 	}
 
 	.txt {
-		padding: 10%;
+		padding: 5%;
 		width: 100%;
 	}
 }

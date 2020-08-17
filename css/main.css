@@ -271,7 +271,7 @@ l
     }
 
     #first {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobilemain.png?alt=media&token=eac98742-42ed-482f-85d8-76c58c16425b");
+      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobilemain.png?alt=media&token=eac98742-42ed-482f-85d8-76c58c16425b");
     }
 
     #second {
@@ -279,11 +279,11 @@ l
     }
 
     #third {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redmainmob.png?alt=media&token=c220f713-7fbd-4409-bef8-c9fad9dc478d");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redmainmob.png?alt=media&token=5dca3d7c-c1b6-45e9-a0f1-835f5f549f92");
     }
 
     #fourth {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisy.jpg?alt=media&token=6a077043-83e7-48dc-9e10-858d1a669c6a");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/daisymainvar.png?alt=media&token=8c8f9c05-d443-4484-8c4b-9e08c89474ae");
     }
     
     .bottomBlock {
@@ -305,11 +305,11 @@ l
     }
 
     #third {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maxresdefault.jpg?alt=media&token=4a5fc581-c177-40c1-95dd-842bf4057ca5");
+      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redv2.png?alt=media&token=db4402d1-d36f-49ad-817c-410ccf1b8af9");
     }
 
     #fourth {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisy.jpg?alt=media&token=6a077043-83e7-48dc-9e10-858d1a669c6a");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/daisymainvar.png?alt=media&token=8c8f9c05-d443-4484-8c4b-9e08c89474ae");
     }
   }
   
@@ -346,7 +346,17 @@ l
     }
   }
 
-  @media screen and (min-width: 900px) and (max-width: 1080px) {
+  @media screen and (min-width: 900px) and (max-width: 1080px) and (min-height: 385px) and (max-height: 950px) {
+    .mainImgText {
+      font-size: 70px;
+    }
+
+    .bottomBlock {
+      margin-top: 45vh;
+    }
+  }
+
+  @media screen and (min-width: 900px) and (max-width: 1080px) and (min-height: 950px) {
     .mainImgText {
       font-size: 70px;
       width: 60%;
@@ -401,7 +411,7 @@ l
     }
 
     .icondown {
-      color: rgba(255, 255, 255);
+      color: black;
     }
     
     .line {
@@ -475,6 +485,10 @@ l
 
     .block {
       padding-top: 30px;
+    }
+
+    .closebtn {
+      display: none;
     }
   }
 
