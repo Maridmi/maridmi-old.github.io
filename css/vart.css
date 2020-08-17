@@ -32,11 +32,19 @@
 	}
 	  
 	#mockup1 {
-		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mockup12.jpg?alt=media&token=ab83b375-3aaa-42ff-a1a5-661353ab26b0");
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mockup.jpg?alt=media&token=18b1e304-8290-450b-acc4-16bea9bc1905");
+	}
+
+	#mockupweb {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/vartwebmock.jpg?alt=media&token=50cdec4c-dcf8-40fe-8cc6-10477ae32ecf");
 	}
 	  
 	#mockup2 {
 		display: none;
+	}
+
+	.mob_mock img {
+		width: 100%;
 	}
 
 	.buta img{
@@ -89,7 +97,7 @@
 		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mockupvartmob.jpg?alt=media&token=a5152ea1-cf94-4a7a-b5b3-58c062f215f0");
 	}
 	  
-	#mockup, #mockup1, .buta img, .buta1 img {
+	#mockup, #mockup1, #mockupweb, #mockupwebdone, .buta img, .buta1 img {
 		display: none;
 	}
 
@@ -104,9 +112,6 @@
 
 .textvart p {
 	font-size: 20px;
-}
-
-body {
 }
 
 .end {
