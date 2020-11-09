@@ -280,7 +280,7 @@ l
     }
 
     #second {
-      background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/webmainmob.png?alt=media&token=6b998cc4-911f-4c6a-95a5-5c5badff3a48");
+      background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/webmainmob.png?alt=media&token=6b998cc4-911f-4c6a-95a5-5c5badff3a48");
     }
 
     #third {
@@ -288,7 +288,7 @@ l
     }
 
     #fourth {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/16.jpg?alt=media&token=f76e7929-29fb-42fa-b18b-c2bbb8a92589");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisy.png?alt=media&token=3625ed40-c91a-4404-b996-d4928b76148e");
     }
     
     .bottomBlock {
@@ -306,7 +306,7 @@ l
     }
 
     #second {
-      background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/webmain.png?alt=media&token=4c7ec126-dc30-4bd6-bc2a-31c4f13774d8");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.3)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/webmain1.png?alt=media&token=fd904dc3-9a83-4a3e-907d-e302661a0d53");
     }
 
     #third {
@@ -314,7 +314,7 @@ l
     }
 
     #fourth {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/61574291.jpg?alt=media&token=83f098f3-7713-45fd-beff-081e070df21c");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisy.png?alt=media&token=3625ed40-c91a-4404-b996-d4928b76148e");
     }
   }
   
@@ -530,6 +530,7 @@ l
     }
     
     .sidenav img {
+      cursor: pointer;
       width: 52px;
       text-align: center;
     }  
