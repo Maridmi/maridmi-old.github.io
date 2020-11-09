@@ -1,6 +1,6 @@
 @media screen and (min-width: 450px) {
 	#oneRed {
-		background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redv2.png?alt=media&token=db4402d1-d36f-49ad-817c-410ccf1b8af9");
+		background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redv3.1.jpg?alt=media&token=510ada83-49be-4491-8240-3a12e5e06edb");
 	}
 
 	#two2 {
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 450px) {
 	#oneRed {
-		background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redmainmob.png?alt=media&token=1c02b8b4-7c7a-4994-8cee-005fdbd066b8");
+		background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redmainmob.png?alt=media&token=5dca3d7c-c1b6-45e9-a0f1-835f5f549f92");
 	}
 
 	#two2 {

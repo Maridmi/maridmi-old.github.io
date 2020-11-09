@@ -122,11 +122,16 @@
     }
   }
 
+  .abs {
+    position: absolute;
+    bottom: 40px;
+  }
+
   .back {
-    width: 100%;
+    position: absolute;
     position: sticky;
     position: -webkit-sticky;
-    bottom: 90px;
+    bottom: 110px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -283,7 +288,7 @@ l
     }
 
     #fourth {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/daisymainvar.png?alt=media&token=8c8f9c05-d443-4484-8c4b-9e08c89474ae");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/16.jpg?alt=media&token=f76e7929-29fb-42fa-b18b-c2bbb8a92589");
     }
     
     .bottomBlock {
@@ -293,7 +298,7 @@ l
 
   @media screen and (min-width: 450px) {
     #headBlock {
-      background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/main111.jpg?alt=media&token=e3ceca13-82e1-4017-b46d-2da399def3d5");
+      background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/main222.png?alt=media&token=8a4c11fc-dca3-44bb-ac11-0417aaec8f4e");
     }
 
     #first {
@@ -305,11 +310,11 @@ l
     }
 
     #third {
-      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redv2.png?alt=media&token=db4402d1-d36f-49ad-817c-410ccf1b8af9");
+      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redv3.1.jpg?alt=media&token=510ada83-49be-4491-8240-3a12e5e06edb");
     }
 
     #fourth {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/daisymainvar.png?alt=media&token=8c8f9c05-d443-4484-8c4b-9e08c89474ae");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/61574291.jpg?alt=media&token=83f098f3-7713-45fd-beff-081e070df21c");
     }
   }
   
@@ -373,7 +378,7 @@ l
     }
 
     .bottomBlock {
-      margin-top: 45vh;
+      margin-top: 50vh;
     }
   }
 
@@ -384,7 +389,7 @@ l
     }
 
     .bottomBlock {
-      margin-top: 50vh;
+      margin-top: 55vh;
     }
   }
 
@@ -590,12 +595,13 @@ l
 
   .icondown:hover {
     color: rgb(63, 199, 147);
+    transition: .4s;
     text-decoration: none;
     animation: bounce1 2s;
   }
 
   .iconup {
-    color: rgba(0,0,0, 0.8);
+    color: rgba(0,0,0, 0.4);
     font-size: 28px;
     text-decoration: none;
     margin-top: 20px;
@@ -603,8 +609,8 @@ l
 
   .iconup:hover {
     color: rgb(63, 199, 147);
+    transition: .4s;
     text-decoration: none;
-    animation: bounce12 2s;
   }
 
   @keyframes bounce1 {
@@ -643,11 +649,47 @@ l
   }
 
   .totop {
-    height: 15vh;
+    height: 20vh;
     background-color: rgb(235, 235, 235);
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+  }
+
+  .end a {
+    color: rgba(0,0,0, 0.4);
+    text-decoration: none; 
+  }
+
+  .end h1{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 45px;
+  }
+
+  .end a:hover {
+    color: rgb(63, 199, 147);
+    transition: .5s;
+  }
+
+  .end span {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .homefoo {
+    border-left: 4px solid rgba(0,0,0, 0.4);
+    border-right: 4px solid rgba(0,0,0, 0.4);
   }
 
   ::-webkit-scrollbar {
@@ -699,3 +741,7 @@ l
       font-size: 100px;
     }
   }
+
+.col-sm-11 {
+  width: 95%;
+}

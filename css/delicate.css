@@ -1,0 +1,43 @@
+@media screen and (min-width: 450px) {
+	#oneD {
+		background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("");
+	}
+
+	#two2 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#three3 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#mockD {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#oneD {
+		background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("");
+	}
+
+	#two2 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#three3 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+	}
+
+	#mockD {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("");
+  	}
+}
+
+.block1 {
+    height: 140vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
