@@ -272,7 +272,7 @@ l
   
   @media screen and (max-width: 450px) {
     #headBlock {
-      background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainmob.png?alt=media&token=8faff4c5-832f-4616-a85a-2e62ef9a0603");
+      background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainmob.png?alt=media&token=2521a780-cedc-4681-843b-9ddef2ebe130");
     }
 
     #first {
@@ -293,6 +293,40 @@ l
     
     .bottomBlock {
       margin-top: 50vh;
+    }
+
+    .end {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30vh;
+      width: 100%;
+      background-color: rgb(235, 235, 235);
+    }
+
+    .end a {
+      color: rgba(0,0,0, 0.4);
+      text-decoration: none; 
+    }
+
+    .end h1{
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 30px;
+    }
+
+    .end a:hover {
+      color: rgb(63, 199, 147);
+      transition: .5s;
+    }
+
+    .end span {
+      display: none;
+    }
+
+    .homefoo {
+      border-left: 3px solid rgba(0,0,0, 0.4);
+      border-right: 3px solid rgba(0,0,0, 0.4);
     }
   }
 
@@ -315,6 +349,42 @@ l
 
     #fourth {
       background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisy.png?alt=media&token=3625ed40-c91a-4404-b996-d4928b76148e");
+    }
+    
+    .end {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      height: 20vh;
+      width: 100%;
+      background-color: rgb(235, 235, 235);
+    }
+
+    .end a {
+      color: rgba(0,0,0, 0.4);
+      text-decoration: none; 
+    }
+
+    .end h1{
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: 45px;
+    }
+
+    .end a:hover {
+      color: rgb(63, 199, 147);
+      transition: .5s;
+    }
+
+    .end span {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .homefoo {
+      border-left: 4px solid rgba(0,0,0, 0.4);
+      border-right: 4px solid rgba(0,0,0, 0.4);
     }
   }
   
@@ -655,42 +725,6 @@ l
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .end {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    height: 20vh;
-    width: 100%;
-    background-color: rgb(235, 235, 235);
-  }
-
-  .end a {
-    color: rgba(0,0,0, 0.4);
-    text-decoration: none; 
-  }
-
-  .end h1{
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 45px;
-  }
-
-  .end a:hover {
-    color: rgb(63, 199, 147);
-    transition: .5s;
-  }
-
-  .end span {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .homefoo {
-    border-left: 4px solid rgba(0,0,0, 0.4);
-    border-right: 4px solid rgba(0,0,0, 0.4);
   }
 
   ::-webkit-scrollbar {
