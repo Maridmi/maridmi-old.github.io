@@ -22,16 +22,11 @@
 	text-decoration: none;
 }
 
-h1 {
-	font-size: 60px;
-}
-
 .web_block a {
 	color: white;
 }
 
 .web_block h3 {
-	color: white;
 	font-size: 25px;
 }
 
@@ -78,18 +73,38 @@ h1 {
 		padding: 5%;
 		width: 100%;
 	}
-}
 
-@media screen and (max-width: 450px) {
-	.web_block img {
+	h1 {
+		font-size: 60px;
+	}
+
+	h4 {
 		display: none;
 	}
 
-	.txt {
+	h3 {
+		color: white;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.pic_web {
+		display: none;
+	}
+
+	.web_block {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		text-align: center;
+	}
+
+	h1 {
+		font-size: 55px;
+	}
+
+	h3, h4 {
+		color: rgba(255,255,255, 0.5)
 	}
 }
