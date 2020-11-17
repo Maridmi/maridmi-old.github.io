@@ -29,7 +29,7 @@
         <h2>Hello!</h2> <br>
         <p>I’m Marina, a Saint P. based designer. Im always searching 
           for new experienxes and challenges. <br>If you have any nice projects, get in touch!</p>
-        <p>You can find out more information <br>about me <a class="navlink" href="/marina_yarova_resume">here.</a></p>
+        <p>You can find out more information <br>about me <a class="navlink" href="/resume.pdf">here.</a></p>
       </div>
 
       <div id="Spec" class="tabcontent">
@@ -66,33 +66,34 @@
     </div>
   </div>
 
-  <div class="sidenav">
-    <img id="logo" onclick="changeState()" src="img/navlogo.png">
-  </div>
-
   <script>
-  let isClosed = true; // 0 - closed, 1 - opened
-
-  function changeState() {
-    if(isClosed)
-      openNav();
-    else
-     closeNav();
-  }
-
-  function openNav() {
-    document.getElementById("myNav").style.width = "600px";
-    document.getElementById("logo").style.transform = "rotate(90deg)";
-    isClosed = false;
-  }
+    let isClosed = true; // 0 - closed, 1 - opened
   
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-    document.getElementById("logo").style.transform = "rotate(0)";
-    document.getElementById("logo").style.transition = "0.5s";
-    isClosed = true;
-  }
+    function changeState() {
+      if(isClosed)
+        openNav();
+      else
+       closeNav();
+    }
+  
+    function openNav() {
+      document.getElementById("myNav").style.width = "600px";
+      document.getElementById("logo").style.transform = "rotate(90deg)";
+      document.getElementById("logo").style.transition = "0.5s";
+      isClosed = false;
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+      document.getElementById("logo").style.transform = "rotate(0)";
+      document.getElementById("logo").style.transition = "0.5s";
+      isClosed = true;
+    }
   </script>
+
+  <div class="sidenav" onclick="changeState()">
+    <img id="logo" src="img/navlogo.png" style="user-select: none;">
+  </div>
 
   <div id="need" class="everything" onclick="closeNav()">
   <div id="headBlock" class="block">
@@ -105,9 +106,6 @@
         <a href="#first"><span class="icondown glyphicon glyphicon-chevron-down"></span></a>
       </div>
     </div>
-      <!--<canvas id="content"></canvas>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
-    <script src="js/headBlock.js"></script>-->
   </div>
 
   <div id="first" class="block">

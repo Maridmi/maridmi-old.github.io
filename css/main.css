@@ -58,6 +58,10 @@
     margin: 0;
   }
 
+  .sidenav {
+    cursor: pointer;
+  }
+
   @media screen and (min-width: 450px) {
     .everything {
       text-decoration: none;
@@ -86,7 +90,8 @@
   }
 
   .nextpage img:hover {
-    animation: bouncenext 2s;
+    opacity: 0.8;
+    transition: 0.3s;
   }
 
   .prevpage {
@@ -104,13 +109,13 @@
 
   .prevpage img:hover {
     opacity: 0.8;
-    transition: 0.4s;
+    transition: 0.3s;
   }
   
   .nextPageButton:hover, .nextPageButton:focus {
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: 0.3s;
   }
 
   @keyframes bouncenext {
@@ -271,26 +276,6 @@ l
 
   
   @media screen and (max-width: 450px) {
-    #headBlock {
-      background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainmob.png?alt=media&token=2521a780-cedc-4681-843b-9ddef2ebe130");
-    }
-
-    #first {
-      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobilemain.png?alt=media&token=eac98742-42ed-482f-85d8-76c58c16425b");
-    }
-
-    #second {
-      background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/webmainmob.png?alt=media&token=6b998cc4-911f-4c6a-95a5-5c5badff3a48");
-    }
-
-    #third {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redmainmob1.png?alt=media&token=28740efa-b476-4437-a05e-db9df16b39e1");
-    }
-
-    #fourth {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisymob.png?alt=media&token=99659599-7086-47d4-a44b-cd937f17bc53");
-    }
-    
     .bottomBlock {
       margin-top: 50vh;
     }
@@ -330,27 +315,7 @@ l
     }
   }
 
-  @media screen and (min-width: 450px) {
-    #headBlock {
-      background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/main222.png?alt=media&token=8a4c11fc-dca3-44bb-ac11-0417aaec8f4e");
-    }
-
-    #first {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/main1.jpg?alt=media&token=83698010-1397-4e7c-93a4-3ad98dbb41a2");
-    }
-
-    #second {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.3)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/webmain1.png?alt=media&token=fd904dc3-9a83-4a3e-907d-e302661a0d53");
-    }
-
-    #third {
-      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redv3.1.jpg?alt=media&token=510ada83-49be-4491-8240-3a12e5e06edb");
-    }
-
-    #fourth {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisy.png?alt=media&token=3625ed40-c91a-4404-b996-d4928b76148e");
-    }
-    
+  @media screen and (min-width: 450px) {    
     .end {
       display: flex;
       align-items: center;
@@ -464,6 +429,26 @@ l
   }
 
   @media screen and (max-width: 900px) {
+    #headBlock {
+      background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mainmob.png?alt=media&token=2521a780-cedc-4681-843b-9ddef2ebe130");
+    }
+
+    #first {
+      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobilemain.png?alt=media&token=eac98742-42ed-482f-85d8-76c58c16425b");
+    }
+
+    #second {
+      background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/webmainmob.png?alt=media&token=6b998cc4-911f-4c6a-95a5-5c5badff3a48");
+    }
+
+    #third {
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redmainmob1.png?alt=media&token=28740efa-b476-4437-a05e-db9df16b39e1");
+    }
+
+    #fourth {
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisymob.png?alt=media&token=99659599-7086-47d4-a44b-cd937f17bc53");
+    }
+
     .mainImgText {
       font-size: 44px;
       width: 100%;
@@ -512,11 +497,6 @@ l
       width: 50px;
       text-align: center;
     }  
-  
-    .sidenav img:hover{
-      transform: rotate(180deg);
-      transition: 0.6s;
-    } 
   
     .overlay {
       height: 100%;
@@ -568,6 +548,26 @@ l
   }
 
   @media screen and (min-width: 900px) {
+    #headBlock {
+      background-image: url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/main222.png?alt=media&token=8a4c11fc-dca3-44bb-ac11-0417aaec8f4e");
+    }
+
+    #first {
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/main1.jpg?alt=media&token=83698010-1397-4e7c-93a4-3ad98dbb41a2");
+    }
+
+    #second {
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.3)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/webmain1.png?alt=media&token=fd904dc3-9a83-4a3e-907d-e302661a0d53");
+    }
+
+    #third {
+      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redv3.1.jpg?alt=media&token=510ada83-49be-4491-8240-3a12e5e06edb");
+    }
+
+    #fourth {
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisy.png?alt=media&token=3625ed40-c91a-4404-b996-d4928b76148e");
+    }
+
     .everything {
       margin-left: 60px;
     }
@@ -603,12 +603,7 @@ l
       cursor: pointer;
       width: 52px;
       text-align: center;
-    }  
-  
-    .sidenav img:hover{
-      transform: rotate(90deg);
-      transition: 0.5s;
-    } 
+    }
   
     .overlay {
       height: 100%;
@@ -656,6 +651,66 @@ l
       padding-top: 12%;
       color: rgba(0,0,0, 0.8)
     }
+    
+    @keyframes slide {
+      0% {
+        opacity: 0;
+        transform: translateY(70%);
+      } 
+      100% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
+    @-webkit-keyframes slide {
+      0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+      } 
+      100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+      }
+    }
+    
+    @keyframes bounce1 {
+      0%,20%,50%,
+      80%,100% {
+          transform: translateY(0);
+      }
+      40% {
+          transform: translateY(20px);
+      }
+      60% {
+          transform: translateY(10px);
+      }
+    }
+    
+    @keyframes bounce12 {
+      0%,20%,50%,
+      80%,100% {
+          transform: translateY(0);
+      }
+      40% {
+          transform: translateY(-15px);
+      }
+      60% {
+          transform: translateY(-10px);
+      }
+    }
+
+    .icondown:hover {
+      color: rgb(63, 199, 147);
+      transition: .4s;
+      text-decoration: none;
+      animation: bounce1 2s;
+    }
+
+    .iconup:hover {
+      color: rgb(63, 199, 147);
+      transition: .4s;
+      text-decoration: none;
+    }
   }
 
   .icondown {
@@ -664,50 +719,11 @@ l
     margin-top: 20px;
   }
 
-  .icondown:hover {
-    color: rgb(63, 199, 147);
-    transition: .4s;
-    text-decoration: none;
-    animation: bounce1 2s;
-  }
-
   .iconup {
     color: rgba(0,0,0, 0.4);
     font-size: 28px;
     text-decoration: none;
     margin-top: 20px;
-  }
-
-  .iconup:hover {
-    color: rgb(63, 199, 147);
-    transition: .4s;
-    text-decoration: none;
-  }
-
-  @keyframes bounce1 {
-    0%,20%,50%,
-    80%,100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(20px);
-    }
-    60% {
-        transform: translateY(10px);
-    }
-  }
-  
-  @keyframes bounce12 {
-    0%,20%,50%,
-    80%,100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-15px);
-    }
-    60% {
-        transform: translateY(-10px);
-    }
   }
 
   .block h3 {
@@ -743,26 +759,6 @@ l
     background: #FF221F; 
   }
 
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
   @media screen and (max-width: 768px) {
     .col-sm-4 {
       text-align: center;

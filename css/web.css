@@ -34,6 +34,10 @@
 	width: 100%;
 }
 
+.main_web_mob img {
+	width: 100%;
+}
+
 .web_block {
 	height: 100vh;
     background-size: 100%;
@@ -61,6 +65,10 @@
 }
 
 @media screen and (min-width: 450px) {
+	.main_web_mob {
+		display: none;
+	}
+
 	.web_block {
 		display: flex;
 		flex-direction: row;
@@ -88,7 +96,7 @@
 }
 
 @media screen and (max-width: 450px) {
-	.pic_web {
+	.pic_web, .main_web {
 		display: none;
 	}
 
