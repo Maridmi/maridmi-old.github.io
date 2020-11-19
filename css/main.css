@@ -3,6 +3,10 @@
     font-family: 'ABeeZee';
   }
 
+  img {
+    user-select: none;
+  }
+
   .row {
     margin: 0;
   }
