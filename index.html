@@ -12,6 +12,7 @@
   <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
   <link rel="shortcut icon" href="img/navlogo.png" type="image/x-icon">
 </head>
 <body>
@@ -44,7 +45,7 @@
         <h2>Just contact me.</h2> <br>
         <p>If you are interested in starting a project together, please get in touch:</p> <br><br>
         <a class="navlinktel" href="tel:+79110180255"><i class="fas fa-phone"></i> +7(911)018-02-55</a><br>
-        <a class="navlinktel" href="mailto:yarova0marina"><i class="far fa-envelope"></i>  yarova0marina@gmail.com</a>
+        <a class="navlinktel" href="mailto:yarova0marina@gmail.com"><i class="far fa-envelope"></i>  yarova0marina@gmail.com</a>
       </div>
 
       <script>
@@ -91,8 +92,88 @@
     }
   </script>
 
+  <div id="myNavmob" class="overlaymob row">
+    <div class="overlay-contentmob">
+      <div class="navButtons">
+        <button class="tablinkmob" id="defaultOpenmob" onclick="openPageMob('Aboutmob', this)">About</button>
+        <button class="tablinkmob" onclick="openPageMob('Specmob', this)">Skills</button>
+        <button class="tablinkmob" onclick="openPageMob('Contactmob', this)">Contacts</button>
+      </div>
+
+      <div id="Aboutmob" class="tabcontentmob">
+        <h2>Hello!</h2> <br>
+        <p>I’m Marina, a Saint P. based designer. Im always searching 
+          for new experienxes and challenges. <br>If you have any nice projects, get in touch!</p>
+        <p>You can find out more information <br>about me <a class="navlink" href="/resume.pdf">here.</a></p>
+      </div>
+
+      <div id="Specmob" class="tabcontentmob">
+        <h2>My primary skills:</h2> <br>
+        <p>Web-design</p>
+        <p>Graphic design</p>
+        <p>Branding (logos, colors)</p>
+        <p>Any kind of drawings</p>
+      </div>
+
+      <div id="Contactmob" class="tabcontentmob">
+        <h2>Just contact me.</h2> <br>
+        <p>If you are interested in starting a project together, please get in touch:</p> <br><br>
+        <a class="navlinktel" href="tel:+79110180255"><i class="fas fa-phone"></i> +7(911)018-02-55</a><br>
+        <a class="navlinktel" href="mailto:yarova0marina"><i class="far fa-envelope"></i>  yarova0marina@gmail.com</a>
+      </div>
+      
+      <a href="javascript:void(0)" class="closebtnmob" onclick="closeNavMob()">&times;</a>
+
+      <script>
+      function openPageMob(pageName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontentmob");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinkmob");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.color = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.color = color;
+      }
+      document.getElementById("defaultOpenmob").click();
+      </script>
+    </div>
+  </div>
+
+  <script>
+    let isClosedMob = true; // 0 - closed, 1 - opened
+
+    function changeStateMob() {
+      if(isClosedMob)
+        openNavMob();
+      else
+      closeNavMob();
+    }
+
+    function openNavMob() {
+      document.getElementById("myNavmob").style.height = "100vh";
+      document.getElementById("logomob").style.transform = "rotate(180deg)";
+      document.getElementById("logomob").style.transition = "0.6s";
+      isClosedMob = false;
+    }
+    
+    function closeNavMob() {
+      document.getElementById("myNavmob").style.height = "0%";
+      document.getElementById("logomob").style.transform = "rotate(0)";
+      document.getElementById("logomob").style.transition = "0.6s";
+      isClosedMob = true;
+    }
+  </script>
+
   <div class="sidenav" onclick="changeState()">
     <img id="logo" src="img/navlogo.png" style="user-select: none;">
+  </div>
+
+  <div class="sidenavmob" onclick="changeStateMob()">
+    <img id="logomob" src="img/navlogo.png" style="user-select: none;">
   </div>
 
   <div id="need" class="everything" onclick="closeNav()">
