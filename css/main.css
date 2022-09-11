@@ -1,6 +1,6 @@
   body {
     overflow-x: hidden;
-    font-family: 'ABeeZee';
+    font-family: 'Nunito Sans', sans-serif;
   }
 
   img {
@@ -50,7 +50,7 @@
   }
 
   a {
-    font-family: 'ABeeZee';
+    font-family: 'Nunito Sans', sans-serif;
   }
 
   .letters a:hover, a:focus {
@@ -457,7 +457,7 @@ l
     }
 
     #first {
-      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobilemain.png?alt=media&token=eac98742-42ed-482f-85d8-76c58c16425b");
+      background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/fanci%2F6.jpg?alt=media&token=4898d038-4177-43e8-a26e-354d723b85c6");
     }
 
     #second {
@@ -465,11 +465,11 @@ l
     }
 
     #third {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/redmainmob1.png?alt=media&token=28740efa-b476-4437-a05e-db9df16b39e1");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/assistent%2F1.jpg?alt=media&token=436c02ff-fde5-4f39-a452-b7637f3d4f2b");
     }
 
     #fourth {
-      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/maindaisymob.png?alt=media&token=99659599-7086-47d4-a44b-cd937f17bc53");
+      background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/cls%2F6.jpg?alt=media&token=2aee2894-9e80-4ad0-b233-61777a7a6330");
     }
 
     .mainImgText {
